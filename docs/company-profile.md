@@ -41,4 +41,23 @@ About 600 accounting firms and small businesses, mainly Ireland, UK and EU, with
 - Payment card data is NOT stored (handled by a third-party processor)
 
 ## 7. Organisation chart
-(paste the text org chart here)
+
+```mermaid
+flowchart TD
+  ceo["CEO"] --> cto["CTO"]
+  ceo --> coo["COO"]
+  ceo --> hp["Head of Product"]
+  ceo --> hs["Head of Sales & Marketing"]
+  cto --> he["Head of Engineering"]
+  cto --> dl["DevOps Lead"]
+  cto --> sim["Security & IT Manager"]
+  he --> be["Backend team"]
+  he --> fe["Frontend team"]
+  he --> qa["QA"]
+  sim --> sa["Security / IT analysts (2)"]
+  coo --> cs["Head of Customer Support & Success"]
+  coo --> fm["Finance Manager"]
+  coo --> hr["HR Manager"]
+  hp --> pd["Product and Design team"]
+  hs --> sm["Sales and Marketing team"]
+```

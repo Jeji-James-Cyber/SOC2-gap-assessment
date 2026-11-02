@@ -40,6 +40,7 @@
 | Okta | Identity / SSO | Carve-out |
 | GitHub | Source code and CI/CD | Carve-out |
 | Payment processor | Card payments | Carve-out (no card data stored by Brighter) |
+| Bank data aggregator | Bank feed connections | Carve-out |
 
 ## 5. Assumptions and limitations
 - Brighter is fictional; all practices and evidence are invented for this exercise
